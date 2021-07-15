@@ -1,11 +1,15 @@
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     font-size: 1.6rem;
 }
 
-*{
+* {
     box-sizing: border-box;
+
+    &:where(:last-child) {
+        margin-bottom: 0;
+    }
 }
